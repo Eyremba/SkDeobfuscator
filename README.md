@@ -2,7 +2,7 @@
 Deobfuscator dla skryptów zaciemnionych WildScriptem
 
 ## Użycie:
-Odpalić poleceniem java -jar <nazwa pliku> z konsoli, lub uzywając skytpu.<br>
+Odpalić poleceniem java -jar <nazwa pliku> z konsoli, lub uzywając skryptu (`.bat`, `.sh`, ...).<br>
 Obok pliku .jar powinien znajdować się plik in.txt (chyba że podamy inaczej, patrz `Argumenty`) gdzie linijka po linijce podane są moce i pliki do rozkodowania, scieżki mogą być relatywane do programu.<br>
 ```
 350 T:/Inne/plik.txt
