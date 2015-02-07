@@ -66,7 +66,7 @@ public final class Main
         log("============== Sk Deobfuscator ==============");
         if ((args.length == 1) && args[0].equalsIgnoreCase("help"))
         {
-            log("Po prsotu obok programu zrób plik in.txt, a w nim, linia po lini:\n  <siła z jaką był zaciemniany> <scieżka do pliku>\n  siłę możesz znaleźć w skrypcie ładującym ten plik, jeśli jednak nie masz takiego pliku, więc nawet nie masz jak odpalic tego skryptu, to zastąp siłę znakiem zapytania a program postara się sam znaleźć tę wartość.\n  Przykład: (scieżka może byc relatywna do pliku, nie musisz dawać całej, razem z dyskiem itd)\n34 skrypty/plik.txt\n  ? C:/Users/Admin/Downloads/plik.txt");
+            log("Po prostu obok programu zrób plik in.txt, a w nim, linia po lini:\n  <siła z jaką był zaciemniany> <scieżka do pliku>\n  siłę możesz znaleźć w skrypcie ładującym ten plik, jeśli jednak nie masz takiego pliku, więc nawet nie masz jak odpalic tego skryptu, to zastąp siłę znakiem zapytania a program postara się sam znaleźć tę wartość.\n  Przykład: (scieżka może byc relatywna do pliku, nie musisz dawać całej, razem z dyskiem itd)\n34 skrypty/plik.txt\n  ? C:/Users/Admin/Downloads/plik.txt");
             pause();
             return;
         }
